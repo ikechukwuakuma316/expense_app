@@ -20,7 +20,15 @@ class TransactionList extends StatelessWidget {
                   style: Theme.of(context).textTheme.headlineSmall,
                   // style: TextStyle(fontWeight: FontWeight.bold),
                 ),
-                Image.asset('assets/images/waiting.png'),
+                SizedBox(
+                  height: 10,
+                ),
+                Container(
+                    height: 200,
+                    child: Image.asset(
+                      'assets/images/waiting.png',
+                      fit: BoxFit.cover,
+                    )),
               ],
             )
           : ListView.builder(
