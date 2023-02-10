@@ -21,10 +21,10 @@ class TransactionList extends StatelessWidget {
                   // style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
-                  height: 10,
+                  height: 100,
                 ),
                 Container(
-                    height: 200,
+                    height: 100,
                     child: Image.asset(
                       'assets/images/waiting.png',
                       fit: BoxFit.cover,
