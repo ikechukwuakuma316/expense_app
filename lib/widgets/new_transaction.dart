@@ -49,6 +49,7 @@ class _NewTransactionState extends State<NewTransaction> {
         _selectedDate = pickedDate;
       });
     });
+    print('...');
   }
 
   @override
@@ -97,14 +98,6 @@ class _NewTransactionState extends State<NewTransaction> {
                 ],
               ),
             ),
-
-            // ElevatedButton(
-            //   child: Text('Add Transaction'),
-            //   style: ButtonStyle(
-            //     foregroundColor:
-            //         MaterialStateProperty.all<Color>(Colors.purple),
-            //   ),
-            //   onPressed: submitData,
 
             // )
             ElevatedButton(
